@@ -1,0 +1,344 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+position: relative;
+width: 1920px;
+height: 1080px;
+background: #FBD5D4;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.Header {
+position: absolute;
+width: 1920px;
+height: 257px;
+left: 0px;
+top: 0px;
+background: #850000;
+}
+
+.Footer {
+position: absolute;
+width: 1920px;
+height: 124px;
+left: 0px;
+top: 956px;
+background: #850000;
+}
+
+.MainTitle {
+position: absolute;
+width: 506px;
+height: 62px;
+left: 739px;
+top: 52px;
+
+font-family: 'Lusitana';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+
+color: #FFFFFF;
+}
+
+.SubTitle{
+position: absolute;
+width: 442px;
+height: 20px;
+left: 767px;
+top: 116px;
+
+font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.logo{
+position: absolute;
+width: 225px;
+height: 226px;
+left: 25px;
+top: 19px;
+}
+
+.MedicineSymbol {
+position: absolute;
+width: 115px;
+height: 106px;
+left: 1741px;
+top: 46px;
+animation-name: rotate;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+.StoreDetails {
+position: absolute;
+width: 155px;
+height: 76px;
+left: 59px;
+top: 980px;
+
+font-family: 'Lusitana';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.FooterLinks {
+position: absolute;
+width: 665px;
+height: 36px;
+left: 1127px;
+top: 1002px;
+}
+
+.aboutUs{
+display : inline;
+}
+
+.facebook{
+  display : inline;
+  margin-left: 50px;
+}
+
+.twitter{
+  display : inline;  
+  margin-left: 50px;
+}
+
+.feedback{
+  display : inline;
+  margin-left: 50px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.fb {
+display : inline;
+width: 23px;
+height: 21px;
+left: 1282px;
+top: 1002px;
+}
+
+.tw {
+display : inline;
+width: 23px;
+height: 21px;
+left: 1487px;
+top: 1002px;
+}
+
+.orderLine {
+  position: absolute;
+width: 1296px;
+height: 60px;
+left: 391px;
+top: 282px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #6421F4;
+}
+
+.deliveryLine {
+position: absolute;
+width: 1150px;
+height: 60px;
+left: 455px;
+top: 356px;
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #0CC740;
+}
+
+.shopLine {
+position: absolute;
+width: 860px;
+height: 39px;
+left: 558px;
+top: 851px;
+
+font-family: 'Pridi';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2684F1;
+}
+
+.storeAddress {
+position: absolute;
+width: 638px;
+height: 22px;
+left: 687px;
+top: 859px;
+margin-top: 42px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.Allopathy {
+position: absolute;
+width: 230px;
+height: 64px;
+left: 0px;
+top: 256px;
+background: #C4C4C4;
+border: 2px solid #F81414;
+box-sizing: border-box;
+}
+
+.Homeopathy {
+  position: absolute;
+  width: 230px;
+  height: 64px;
+  left: 0px;
+  top: 320px;
+  
+  background: #C4C4C4;
+  border: 2px solid #F81414;
+  box-sizing: border-box;
+  }
+
+.Ayurvedic {
+    position: absolute;
+    width: 230px;
+    height: 64px;
+    left: 0px;
+    top: 384px;
+    
+    background: #C4C4C4;
+    border: 2px solid #F81414;
+    box-sizing: border-box;
+    }
+.Dental {
+      position: absolute;
+      width: 230px;
+      height: 64px;
+      left: 0px;
+      top: 448px;
+      
+      background: #C4C4C4;
+      border: 2px solid #F81414;
+      box-sizing: border-box;
+      }
+.General {
+        position: absolute;
+        width: 230px;
+        height: 64px;
+        left: 0px;
+        top: 512px;
+        
+        background: #C4C4C4;
+        border: 2px solid #F81414;
+        box-sizing: border-box;
+        }
+.OrderProcess {
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+width: 1303px;
+height: 317px;
+left: 359px;
+top: 469px;
+}
+
+.ellipse {
+position: relative;
+display: inline-flex;
+border: solid darkred;
+justify-content: center;
+align-items: center;
+margin: 4%;
+text-align: center;
+width: 303px;
+height: 313px;
+border-radius: 50%;
+background: rgba(239, 146, 146, 0.2);
+}
+
+.EllipseText {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.shopText {
+  position: relative;
+  display: inline-block;
+}
+
+.rightarrow {
+position: absolute;
+width: 132.02px;
+height: 0px;
+left: 687px;
+top: 629px;
+
+border: 6px solid #000000;
+box-sizing: border-box;
+transform: rotate(0.87deg);
+}
+  
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
