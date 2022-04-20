@@ -27,7 +27,7 @@ function App() {
           <div class = "ellipse"><div class="EllipseText">Browse through our catalogue and add medicines to the cart</div></div>
           <div ><p> &#8594;</p></div>
           <div class = "ellipse"><div class="EllipseText">Place the order by providing the details at checkout</div></div>
-          <div class = "ellipse"><div class="EllipseText">Pay on delivery</div></div>
+          <div class = "ellipse"><div class="EllipseText">Pay on delivery text</div></div>
         </div>
         <div class = "shopLine">One stop shop for all kind of medical products.Visit our store at Bellandur.</div>
         <div class = "storeAddress"> Address: Sanjeevani medical store, bellandur, Bengaluru</div>
