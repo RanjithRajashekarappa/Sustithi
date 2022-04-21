@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sustithi/static/css/main.75f4a24d.css",
-    "main.js": "/Sustithi/static/js/main.677daa3d.js",
+    "main.js": "/Sustithi/static/js/main.fe225a69.js",
     "static/js/787.c8b54e93.chunk.js": "/Sustithi/static/js/787.c8b54e93.chunk.js",
     "static/media/MainLogo.svg": "/Sustithi/static/media/MainLogo.463325407e9bf5db503cf11d91883690.svg",
     "static/media/akar-icons_twitter-fill.svg": "/Sustithi/static/media/akar-icons_twitter-fill.79655f1e754647efe49b5f1ed4d0de2f.svg",
@@ -9,11 +9,11 @@
     "static/media/akar-icons_facebook-fill.svg": "/Sustithi/static/media/akar-icons_facebook-fill.49393b98e249fbafb82b3775598f5dcf.svg",
     "static/media/MedicineSymbol.svg": "/Sustithi/static/media/MedicineSymbol.c84ddce648e5596630f9e7ad60e141e2.svg",
     "main.75f4a24d.css.map": "/Sustithi/static/css/main.75f4a24d.css.map",
-    "main.677daa3d.js.map": "/Sustithi/static/js/main.677daa3d.js.map",
+    "main.fe225a69.js.map": "/Sustithi/static/js/main.fe225a69.js.map",
     "787.c8b54e93.chunk.js.map": "/Sustithi/static/js/787.c8b54e93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75f4a24d.css",
-    "static/js/main.677daa3d.js"
+    "static/js/main.fe225a69.js"
   ]
 }
