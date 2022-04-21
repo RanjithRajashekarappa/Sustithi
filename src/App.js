@@ -25,7 +25,6 @@ function App() {
 
         <div class = "OrderProcess">
           <div class = "ellipse"><div class="EllipseText">Browse through our catalogue and add medicines to the cart</div></div>
-          <div ><p> &#8594;</p></div>
           <div class = "ellipse"><div class="EllipseText">Place the order by providing the details at checkout</div></div>
           <div class = "ellipse"><div class="EllipseText">Pay on delivery</div></div>
         </div>
