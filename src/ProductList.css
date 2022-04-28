@@ -1,0 +1,102 @@
+.App {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+  .header {
+  background: #850000;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: center;
+  align-content: center;
+  }
+
+  .header div {
+    border: 2px solid blue;
+    flex-basis: 32%;
+    margin: 10px;
+  }
+  .logo{
+    position: absolute;
+    left: 25px;
+    }
+    
+    .MedicineSymbol {
+
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+
+.title{
+    flex-basis: 70%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.animation{
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    margin: 10px;
+}
+  
+  .footer {
+  background: #850000;
+  width:100%;
+  height:10vh;
+
+  }
+  
+  .main {
+    width:100%;
+    height:70vh;
+  }
+
+  .categoryMenu{
+      width:10%;
+      background: #C4C4C4;
+
+  }
+
+  .categoryName{
+    width:99%;
+    border: 2px solid #850000;
+    
+
+  }
+
+  .categoryName p{
+    font-family: 'Port Lligat Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+    
+
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
